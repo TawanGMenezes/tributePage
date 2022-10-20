@@ -1,0 +1,82 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#thumbimg{
+  background-image: url('../images/casseta.jpg');  
+  background-position:center ;
+  background-size:cover;
+  height: 562px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.title{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  display: flex;
+  align-self: flex-end;
+  padding-bottom: 30px;
+  
+}
+
+#secbody{
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  
+  display: flex;
+  width: 1300px;
+  justify-content: center;
+  flex-direction: column;
+ 
+  
+}
+
+.cttitle{
+  
+  padding-top: 20px;
+ 
+  font-size: 25px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.ctbody{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  
+}
+
+#fotos{
+  width: 340px;
+  
+}
+
+#description{
+  line-height: 20px;
+  font-size: 18px;
+  text-align: left;
+  display: flex;
+  flex: 1;
+}
+
+#fotos{
+  display: flex;
+  flex-wrap: wrap
+}
+#fotos img {
+  justify-content: space-between;
+  margin: 5px;
+  width: 160px;
+  height: 150px;
+  ;
+}
+
