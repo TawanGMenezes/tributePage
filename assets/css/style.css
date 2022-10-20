@@ -9,18 +9,17 @@ body{
   background-size:cover;
   height: 562px;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 .title{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 48px;
+  font-size: 70px;
   color: #ffffff;
   display: flex;
   align-self: flex-end;
   padding-bottom: 30px;
-  
+  text-shadow: px 3px 0px #555555; 
 }
 
 #secbody{
@@ -30,20 +29,15 @@ body{
   justify-content: center;
 }
 
-.container{
-  
+.container{ 
   display: flex;
   width: 1300px;
   justify-content: center;
-  flex-direction: column;
- 
-  
+  flex-direction: column;   
 }
 
 .cttitle{
-  
   padding-top: 20px;
- 
   font-size: 25px;
   border-bottom: 1px solid #ffffff;
 }
@@ -57,13 +51,33 @@ body{
 }
 
 #description{
-  line-height: 20px;
+  flex-direction: column;
+  line-height: 25px;
   font-size: 18px;
   text-align: left;
   display: flex;
   flex: 1;
+  
 }
-
+#description a{
+  text-decoration: none;
+  color: #22b24d;
+}
+.integrantes{
+  padding-top: 20px;
+}
+.integrantes_title{
+  font-size: 25px;
+  padding-top: 25px;
+  border-bottom: 1px solid #ffffff;
+  
+  
+  
+}
+.integrantes ul{
+  line-height: 30px;
+  padding: 0px;
+}
 #fotos{
   display: flex;
   flex-wrap: wrap;
@@ -92,17 +106,17 @@ video{
 }
 
 
-
 #lastfoto img{
-  background-color: blue;
-  flex: 1;
-  width: 200px;
-  
+
+  width: 300px;
+  height: 200px;
+ 
 }
 
 #lf{
   display: flex;
   flex: 1;
+  justify-content: space-around;
 }
 
 #lf a{
