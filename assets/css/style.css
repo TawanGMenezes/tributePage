@@ -52,7 +52,7 @@ body{
   
 }
 
-#description{
+.description{
   flex-direction: column;
   line-height: 25px;
   word-spacing : 1px;
@@ -62,7 +62,8 @@ body{
   flex: 1;
   
 }
-#description a{
+.description2 a{
+
   text-decoration: none;
   color: #22b24d;
 }
@@ -79,7 +80,10 @@ body{
 }
 .integrantes ul{
   line-height: 30px;
-  padding: 0px;
+  margin-left: 5px;
+  margin: 0;
+  margin-left: 17px;
+  padding: 0;
 }
 #fotos{
   display: flex;
