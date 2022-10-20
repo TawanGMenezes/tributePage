@@ -50,13 +50,9 @@ body{
 
 .ctbody{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-center;
   padding-top: 25px;
   
-}
-
-#fotos{
-  width: 340px;
   
 }
 
@@ -70,13 +66,50 @@ body{
 
 #fotos{
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  width: 340px;
+  
 }
 #fotos img {
   justify-content: space-between;
   margin: 5px;
   width: 160px;
   height: 150px;
-  ;
+  
+}
+video{
+  width: 400px;
+  height: 240px;
+
 }
 
+
+#media{
+  display: flex;
+  
+  justify-content: space-between;
+  
+}
+
+
+
+#lastfoto img{
+  background-color: blue;
+  flex: 1;
+  width: 200px;
+  
+}
+
+#lf{
+  display: flex;
+  flex: 1;
+}
+
+#lf a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+}
+#msgvideo{
+  text-align: center;
+}
